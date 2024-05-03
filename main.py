@@ -1,7 +1,3 @@
-"""
-TODO: Terminar de arreglar cosas.
-"""
-
 import os
 from time import sleep
 
