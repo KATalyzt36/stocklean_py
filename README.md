@@ -3,7 +3,7 @@
 ## Requierements:
 - Python 3 
 
-## Intructions:
+## Instructions:
 Run this command
 
 Linux:
