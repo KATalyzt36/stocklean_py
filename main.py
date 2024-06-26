@@ -4,7 +4,7 @@ from time import sleep
 from Modules.DataBase.SQLite import Database
 from Modules.Utils import Color, Input, Special_msgs as msg
 
-db_path = 'Modules/DataBase/stock.db'
+db_path = 'stock.db'
 db = Database(db_path)
 db.create_table()
 
@@ -239,7 +239,9 @@ def get_answer(answer_received):
 
 while True:
     clear()
+
     msg.green("[Menú principal]\n")
+
 
     print("1. Ver")
     print("2. Crear")
